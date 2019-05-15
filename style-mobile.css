@@ -1,0 +1,57 @@
+.photos > div {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.photos {
+    display: grid;
+    grid-template-columns: repeat(2, 40% 10%);
+    width: 1000vw !important;
+}
+.photos div, .photos img, .photos div img {
+    width: 100% !important; 
+}
+#aboutme-block{
+	grid-template-columns: 80%;
+    grid-gap: 4%;
+	font-size: 20px;
+}
+#footer-img {
+    background-image: url(snakes-mobile.png);
+    height: 178.3vw;
+    max-height: 100%;
+}
+.center {
+    grid-template-columns: 80%;
+    grid-template-rows: 60% 40%;
+}
+#speedpaint-pic {
+    max-height: 84%;
+    max-width: 100%;
+}
+#sign {
+    left: -7vw;
+    top: 3vh;
+    width: 85%;
+}
+#header-img{
+	height: 100%;
+	width: 100%;
+	background-size: 100% auto;
+	background-image: url(background-mobile.png);
+}
+#illustrations-link {
+    left: 7vw;
+    top: 142px;
+}
+#aboutme-link {
+    top: 41vh;
+    left: -30px;
+}
+#speedpaint-link {
+    top: 59vh;
+    left: 15vw;
+}
+#links-link {
+    top: 80vh;
+    left: 9vw;
+}

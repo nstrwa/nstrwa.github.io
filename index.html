@@ -1,0 +1,83 @@
+<html language="ru">
+<head>
+	<meta name="viewport" content="device-width=width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" media="screen and (max-width: 800px)" href="style-mobile.css">
+	<link rel="stylesheet" href="galerry.css">
+	<link rel="stylesheet" href="onepagescroll.css">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<section>
+			<div id="links-container">
+				<div onclick="moveTo('.main', 3);" id="illustrations-link"><div></div></div>
+				<div onclick="moveTo('.main', 2);" id="aboutme-link"><div></div></div>
+				<div onclick="moveTo('.main', 4);" id="speedpaint-link"><div></div></div>
+				<div onclick="moveTo('.main', 5);" id="links-link"><div></div></div>
+			</div>
+			<img id="sign" src="YANA_P_illustrator.png">
+			<div id="header-img"></div>
+		</section>
+		<section id="aboutme-section">
+			<div id="aboutme-block">
+				<div>
+					<img src="galerry/gif.gif" width="100%">
+				</div>
+				<div>
+					<img src="about_me(2_screen).png" id="aboutme-title">
+					Hi, I’m Yana. I live in Lviv and I’m a third year student at Lviv National Academy of Arts majoring in graphic design. I also work with illustration and work as a freelancer. Welcome to my gallery!
+				</div>
+			</div>
+		</section>
+		<section class="v-center">
+			<div class="arrow hidden" id="arrow-left"></div>
+			<div id="photo-handler" class="m-p-g">
+				<div class="photos m-p-g__thumbs" data-google-image-layout>
+					<div>
+						<img src="galerry/ivanova.png" data-full="galerry/ivanova.png" class="m-p-g__thumbs-img">
+						<img src="galerry/uroboros.png" data-full="galerry/uroboros.png" class="m-p-g__thumbs-img">
+						<img src="galerry/dino.png" data-full="galerry/dino.png" class="m-p-g__thumbs-img">
+						<img src="galerry/julia.png" data-full="galerry/julia.png" class="m-p-g__thumbs-img">
+					</div>
+					<img src="galerry/cerberus.png" data-full="galerry/cerberus.png" class="m-p-g__thumbs-img">
+					<div>
+						<img src="galerry/wendy.png" data-full="galerry/wendy.png" class="m-p-g__thumbs-img">
+						<img src="galerry/coverart_thalia.png" data-full="galerry/coverart_thalia.png" class="m-p-g__thumbs-img">
+						<img src="galerry/osgard.png" data-full="galerry/osgard.png" class="m-p-g__thumbs-img">
+						<img src="galerry/unlucky_cat.png" data-full="galerry/unlucky_cat.png" class="m-p-g__thumbs-img">
+					</div>
+					<img src="galerry/caroline.png" data-full="galerry/caroline.png" class="m-p-g__thumbs-img">
+				</div>
+				<div class="m-p-g__fullscreen"></div>
+			</div>
+			<div class="arrow" id="arrow-right"></div>
+		</section>
+		<section>
+			<div class="center">
+				<div>
+					<img src="cfnslr.png" id="speedpaint-pic">
+				</div>
+				<div style="flex-grow: 1;">
+					<iframe id="speed-painting" width="100%" style="height: 37vw;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="buttons">
+				<a href="https://nstrwa.tumblr.com"><img src="tumblr.png" class="button"/></a>
+				<a><img src="twitter.png" class="button"/></a>
+				<a href="https://www.instagram.com/nstrwa/"><img src="insta.png" class="button"/></a>
+				<a href="https://www.behance.net/ooftm1998f2b8"><img src="behance.png" class="button"/></a>
+			</div>
+			<div id="footer-img"></div>
+		</section>
+	</div>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
+	<script src="svg.min.js"></script>
+	<script src="gallery.js"></script>
+	<script src="onepagescroll.js"></script>
+	<script src="script.js"></script>
+	<script src="menu.js"></script>
+</body>
+</html>
